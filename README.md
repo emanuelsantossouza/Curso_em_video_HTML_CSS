@@ -84,3 +84,21 @@ Todo o material e anotações do curso de html e css estarão aqui.
 
 ### Resultado
 ![Alt text](image-8.png)
+
+
+
+
+
+
+
+
+
+
+![Alt text](image-15.png)
+
+
+![Alt text](image-16.png)
+
+
+
+![Alt text](image-17.png)
