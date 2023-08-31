@@ -87,18 +87,44 @@ Todo o material e anotações do curso de html e css estarão aqui.
 
 
 
+## Texto Com as Fontes Monoespaçadas / Tag Code
+#### Para termos um texto Monoespaçado, "com todas as letras utilizando o mesmo espaçao", devemos utilizar a tag <code>CODE</code> e o caracter já tomara forma de monoespaçamento.
 
-
-
-
-
-
-
+### Sem o Monoespaçamento!
 ![Alt text](image-15.png)
 
-
+### Com o Monoespaçamento!
 ![Alt text](image-16.png)
 
 
+## Texto com Indentação para codigos de linguagens de programação
+#### Nescessitamos utilizar a tag "pre" para termos um codigo de alguma linguagem com a mesmo indentação do editor.
 
+### Resultado 
 ![Alt text](image-17.png)
+
+## Texto com citações
+#### Citações simples, a tag nescessária para esse efeito é "q", que criará o duas aspas e os navegadores, entenderam que é um citação simples!
+
+### Resultado
+![Alt text](image-18.png)
+
+#### Citações completas, Devemos utilizar a tag "blockquote" em traduzação livre, "Block de citação", além disso, temo o parâmetro cite, que é obrigatorio que ajudará o navegador a saber da onde é aquela citação.
+
+### Resultado
+![Alt text](image-19.png)
+
+
+## Texto Abreviado
+#### A Abreviatura no HTML é muito simples de ser utilizada, apenas precisamos utilizar a tag "abbr" que criará um linha em baixo da palavra abreviada e quando passar o mouse em cima, poderar ver o texto completo.
+
+#### Quando utilizar a abbr, terá o parâmetro titulo para o nome completo da abreviação!
+
+### Resultado
+![Alt text](image-20.png)
+
+## Texto de Invertido
+#### Para deixar um texto escrito de tras para frente utilize a tag, bdo e podera ver o efeito!
+
+### Resultado
+![Alt text](image-21.png)
