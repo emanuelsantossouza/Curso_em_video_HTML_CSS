@@ -1,43 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <h1>Outras Formatações</h1>
-    <h2>Código-fonte</h2>
-    <p>O comando <code>document.getById('teste')</code> é escrito em linguagem JavaScript</p>
+    <h1>Trabalhando com Lista</h1>
+    <h2>Lista Ordenadas</h2>
 
-    <pre>
-        <code>
-            <p>code em JavaScript</p>
+    <ol type="I"> <!-- A, a I,i e 1-->
+        <li>Acordar</li>
+        <li>Ligar para o pai</li>
+        <li>Tomar banho</li>
+        <li>Escovar o teeth</li>
+        <li>Ir para escola</li>
+        <li>Ler</li>
+        <li>Escrever no meu diário</li>
+    </ol>
 
-            let suaIdade = number
-            
-            if (suaIdade =< 16) {
-                console.log('Não vota')
-            } else if (suaIdade =< 18 || suaIdade > 65) {
-                console.log('Voto opcional')
-            } else {
-                console.log('Voto obrigatório')
-            }
-        </code>
-    </pre>
+    <h2>Lista Não Ordenadas</h2>
+    <ul type="square"> <!-- circle, disc, square -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Tapioca</li>
+        <li>Fermento</li>
+        <li>Pepino</li>
+    </ul>
 
-    <h2>Citações ou Quote</h2>
-    <p>Para criar a tópico de citações simples, utilizamos a <q>tag q</q></p>
-    <p>Para criar a tópico de citações completa e referenciar o autor utilizamos, a <blockquote cite="https://github.com/emanuelsantossouza">blockquote e cite que é um parâmetro do blockqueote</blockquote></p>
+    <h2>Misturando as Listas</h2>
+    <ul>
+        <li>Linguagens que eu sei programar</li>
+        <ol>
+            <li>Javascript</li>
+            <li>Typescript</li>
+            <li>C#</li>
+        </ol>
+        <li>Linguagens que eu não sei programar</li>
+        <ol>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>Kotylin</li>
+            <li>Kotlin</li>
+            <li>Java</li>
+        </ol>
+    </ul>
 
-    <h2>Abreviações</h2>
-    <p>Para criar um abreviação, no html, temos a tag abbr. Vamos utilizar com a abreviação <abbr title="HyperText Markup Language">HTML</abbr></p>
+    <h2>Lista dentro de Lista</h2>
+    <ul>
+        <h3>Alimentos Saudaveis</h3>
+        <li>Saladas</li>
+        <ul> 
+            <li>Salada de Alface</li>
+            <li>Salada Carioca</li>
+            <li>Salada Vegana</li>
+        </ul>
+        <li>Frutas</li>
+        <ul>
+            <li>Uvas</li>
+            <li>Maça</li>
+            <li>Pecegos</li>
+        </ul>
+        <li>Pão</li>
+        <ul>
+            <li>Pão de Queijo</li>
+            <li>Rosca de Chocolate</li>
+        </ul>
+        <li>Leite</li>
+        <ul>
+            <li>Leito com Nescau</li>
+            <li>Leito com Toddy</li>
+        </ul>
 
-    <h2>Por curiosidade, Como deixar um texto invertido a escrita</h2>
-    <p>Podemos utilizar a tag bdo para transcrever o texto desejado e deixando-o a escrita de tras para frente</p>
-    <p><bdo dir="rtl">Podemos utilizar a tag bdo para transcrever o texto desejado e deixando-o a escrita de tras para frente</bdo></p>
+        
+
+        <h3>Alimentos Naõ Saudaveis</h3>
+        <li>Pizza</li>
+        <ul>
+            <li>Pizza de Chocolate</li>
+            <li>Pizza Baiana</li>
+        </ul>
+        <li>Sorvete</ol>
+        <ul>
+            <li>Sorvete de Chocolate</li>
+            <li>Sorvete de Ninho</li>
+        </ul>
+
+        <li>Bebidas</li>
+        <ul>
+            <li>Cerveja</li>
+            <li>Corote</li>
+            <li>Vinho</li>
+        </ul>
+
+    </ul>
+
+    <h2>Definições igual ao dicionario outra forma de fazer <strong>listas</strong></h2>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação, utilizada em toda a web</dd>
+    <dt>CSS</dt>
+    <dd>Folha de estilo em cascata, utilizada para dar vida e cor, animação e deixar mais agradavel</dd>
+    <dt>Javascript</dt>
+    <dd>Linguagem de Programação, utilizado para dar vida as ações, programas e algoritmos de um site, responsavel pela
+        parte lógica</dd>
 </body>
 
 </html>
