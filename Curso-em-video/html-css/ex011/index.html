@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tamanho de imagens Diferentes de acordo com o tamanho da tela</h1>
+    <p>Temos 3 tipos de imagens, para telas grandes, telas medias e telas pequenas, teste todas!</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/imgPequena.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="img/imgMedia.png" type="image/png">
+        <img src="img/imgGrande.png" alt="Imagem Grande">
+    </picture>
+</body>
+</html>
