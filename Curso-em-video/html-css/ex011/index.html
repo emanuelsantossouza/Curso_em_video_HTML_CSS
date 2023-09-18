@@ -14,5 +14,15 @@
         <source media="(max-width: 1030px)" srcset="img/imgMedia.png" type="image/png">
         <img src="img/imgGrande.png" alt="Imagem Grande">
     </picture>
+
+    <h1>Vamos reproduzir um audio em HTML5.</h1>
+    <p>Vamos aprender a tocar audios no HTML</p>
+
+    <!-- Forma convencional -->
+    <audio src="media/audio1.mp3" controls></audio>
+
+    <audio preload="auto" controls>
+        <source src="media/audio1.mp3" type="audio/mpeg">
+    </audio>
 </body>
 </html>
