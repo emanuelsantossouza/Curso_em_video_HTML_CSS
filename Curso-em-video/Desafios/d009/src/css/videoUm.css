@@ -1,0 +1,9 @@
+body{
+    background: rgb(29,29,29);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
