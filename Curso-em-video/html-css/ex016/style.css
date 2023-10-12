@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor-h1: #E56399;
+    --cor-h2: #320E3B;
+}
+
+body{
+    background: linear-gradient(to bottom, #A6CFD5, #DBFCFF);
+    height: 100vh;
+}
+
+main{
+    background-color: #fff;
+    width: 70%;
+    margin: .5rem auto;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    border-radius: 15px;
+}
+
+h1{
+    color: var(--cor-h1);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+h2{
+    font-size: 1.05rem;
+    color: var(--cor-h2);
+    margin-bottom: .5rem;
+}
+
+p{
+    margin-bottom: .5rem;
+}
