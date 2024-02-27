@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+        *{
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: red;
+        }
+
+        a:visited{
+            color: blueviolet;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: green;
+        }
+
+        a::before{
+            content: '🔗';
+        }
+
+        a::after{
+            content: '✓';
+        }
+
+        .especial::after{
+            content: '👍';
+        }
+
+        .especial::before{
+            content: '👎';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+
+    <ul>
+        <li><a class="especial" href="https://emanuelsantossouza.github.oi" target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://youtube.com.br" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.google.com" target="_blank">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
