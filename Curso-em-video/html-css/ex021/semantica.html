@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+        }
+
+        h1 {
+            font: normal bold 2em Arial, sans-serif;
+            color: black;
+            padding: 1rem;
+        }
+
+        ul {
+            background-color: gray;
+            color: white;
+            padding: 1rem;
+            margin: 1rem 1rem;
+        }
+
+        section {
+            background-color: white;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        article {
+            background-color: salmon;
+            padding: 1rem;
+        }
+
+        article>aside {
+            
+            margin-top: 1rem;
+            background-color: blueviolet;
+        }
+
+        footer {
+            margin: 0;
+            background-color: black;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Meu site</h1>
+            <ul style="display: flex; justify-content: space-around;">
+                <li>
+                    <p>links</p>
+                </li>
+                <li>
+                    <p>links</p>
+                </li>
+                <li>
+                    <p>links</p>
+                </li>
+                <li>
+                    <p>links</p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="animes">
+            <article>
+                <h2>Dragon super esta de volta!</h2>
+
+                <p>Dragon Ball Super é uma série de anime criada por Akira Toriyama e produzida pela Toei Animation, que
+                    começou a ser exibida em 5 de julho de 2015 e teve seu último episódio exibido em 25 de março de
+                    2018. A série se passa em um período de tempo após a derrota de Majin Boo, e continua a história de
+                    Goku, que se tornou um herói na Terra e que protege a vida na Terra. A série introduz um novo
+                    personagem chamado Beerus, o Deus da Destruição, que é o deus do 7º universo, e que desperta de um
+                    sono de 39 anos para descobrir quem é o Super Saiyajin Deus, uma lenda entre os Saiyajins.</p>
+
+                <aside>Fontes informam que aproximamente esta de volta no mes de abril</aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Emanuel | <a href="">Aula curso em video</a></p>
+    </footer>
+
+</html>
