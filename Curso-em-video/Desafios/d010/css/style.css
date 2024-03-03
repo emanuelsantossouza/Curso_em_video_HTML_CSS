@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(#3ad07e, #1a5c38);
+    color: white;
+    padding: 1rem 1rem 0;
+}
+
+header>section>h1 {
+    margin-bottom: 1rem;
+    font-size: 1.6em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header>section>p {
+    text-align: center;
+    font-size: .8em;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+nav {
+    padding: 0rem 0 .5rem 0;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 500px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+main {
+    padding: 0 5rem;
+    background-color: #e6e5c0;
+}
+
+#historia {
+    background-color: white;
+    padding: 1rem;
+}
+
+#historia>article>h2 {
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+    font-family: 'android';
+}
+
+font-face {
+    font-family: 'android';
+    src: url('../fontes/idroid.otf') format('opentype');
+}
