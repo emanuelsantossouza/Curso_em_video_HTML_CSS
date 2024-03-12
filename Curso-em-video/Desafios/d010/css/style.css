@@ -7,6 +7,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: #e6e5c0;
+}
+
 @font-face {
     font-family: 'android';
     src: url('../fontes/idroid.otf') format('opentype');
@@ -51,13 +55,14 @@ ul>li>a {
 }
 
 main {
-    padding: 0 5rem;
-    background-color: #e6e5c0;
+    width: 800px;
+    margin: 0 auto;
 }
 
 #historia {
     background-color: white;
     padding: 1rem;
+    box-shadow: 0px 1px 8px 1px rgba(0, 0, 0, 0.349);
 }
 
 #historia>article>h2 {
@@ -76,9 +81,11 @@ main {
 }
 
 .container-title-historia>h3 {
+    padding: .3rem .5rem;
     font: 700 1.2em 'android';
     color: #1a5c38;
-    background-color: #3ad07e45;
+
+    background-image: linear-gradient(45deg, #7fffd4, #ffffff);
     margin-bottom: 1rem;
 }
 
@@ -107,7 +114,6 @@ main {
     padding: 1rem 1.5rem;
 }
 
-.container-sumario-aprender {}
 
 .container-sumario-aprender>h3 {
     padding: .5rem;
