@@ -1,4 +1,11 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url('../fontes/idroid.otf') format('opentype');
+}
+
 
 * {
     margin: 0;
@@ -11,14 +18,13 @@
 
 :root {}
 
+
+
 body {
     background-color: #e6e5c0;
 }
 
-@font-face {
-    font-family: 'android';
-    src: url('../fontes/idroid.otf') format('opentype');
-}
+
 
 header {
     background-image: linear-gradient(#3ad07e, #1a5c38);
